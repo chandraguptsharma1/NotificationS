@@ -1,4 +1,6 @@
 // models/ReadNotification.js
+import mongoose from "mongoose";
+
 const ReadNotificationSchema = new mongoose.Schema({
   notificationGuid: { type: String, required: true },
   staffId: { type: String, required: true },
